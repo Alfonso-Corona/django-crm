@@ -20,6 +20,7 @@
       <p class="card-text"><strong>CreatedAt: </strong>{{ customer_record.created_at }}</p>
 
       <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="{% url 'delete_record' customer_record.id %}" class="btn btn-outline-danger">Delete</a>
     </div>
   </div>
 
